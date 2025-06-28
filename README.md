@@ -5,7 +5,7 @@
 ## Структура проекта
 
 ```
-├── docker-compose.yml      # Конфигурация Docker Compose для развертывания приложения
+├── docker-compose.yml     # Конфигурация Docker Compose для развертывания приложения
 ├── init_db.sql            # Скрипт для инициализации базы данных
 └── web                    # Директория с веб-приложением
     ├── Dockerfile         # Dockerfile для сборки образа веб-приложения
@@ -16,7 +16,7 @@
     │   ├── logout.php     # Страница выхода
     │   ├── register.php   # Страница регистрации
     │   ├── styles.css     # CSS стили
-    │   └── welcome.php     # Страница приветствия
+    │   └── welcome.php    # Страница приветствия
     └── src                # Исходный код приложения
         └── config.php     # Конфигурационный файл
 ```
@@ -25,12 +25,15 @@
 
 1. Убедитесь, что у вас установлен Docker и Docker Compose.
 2. Клонируйте репозиторий на свой компьютер:
-   ```bash
-   git clone https://github.com/d1sgr4c3/fefu_web_exam.git
-   cd fefu_web_exam
-   ```
+
+```bash
+git clone https://github.com/d1sgr4c3/fefu_web_exam.git
+cd fefu_web_exam
+```
+ 
 3. Запустите Docker Compose для развертывания приложения:
-   ```bash
-   docker-compose up -d
-   ```
+
+```bash
+docker-compose up -d
+```
 
